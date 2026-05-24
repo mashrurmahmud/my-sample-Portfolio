@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Header</title>
+  <link rel="stylesheet" href="./src/output.css">
+  <link rel="stylesheet" href="./src/style.css">
+
+  <!-- Tailwind CSS CDN -->
+  
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- Header Section -->
+  <header class="min-h-screen container mx-auto bg-gradient-to-r p-4 from-blue-900 to-blue-600 text-white px-8 md:px-20">
+
+    <!-- Navbar -->
+    <nav class="flex flex-col md:flex-row justify-between items-center py-6">
+
+      <!-- Logo -->
+      <h1 class="text-3xl font-bold">MyPortfolio</h1>
+
+      <!-- Nav Links -->
+      <ul class="flex gap-6 mt-4 md:mt-0 text-lg">
+        <li>
+          <a href="#" class="hover:text-yellow-300 duration-300">Home</a>
+        </li>
+
+        <li>
+          <a href="/about.html" class="hover:text-yellow-300 duration-300">About</a>
+        </li>
+
+        <li>
+          <a href="contact.html" class="hover:text-yellow-300 duration-300">Contact Me</a>
+        </li>
+         <li>
+          <a href="#" class="hover:text-yellow-300 duration-300 login_btn">Login</a>
+        </li>
+        
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="flex container mx-auto flex-col-reverse md:flex-row items-center justify-between h-[80vh]">
+
+      <!-- Left Content -->
+      <div class="max-w-xl text-center md:text-left mt-10 md:mt-0">
+
+        <h2 class="text-5xl md:text-6xl font-bold leading-tight">
+          Hi, I'm Mashrur
+        </h2>
+
+        <p class="mt-6 text-lg text-gray-200 leading-8">
+          I am a Web Developer passionate about creating modern,
+          responsive and beautiful websites using HTML, CSS,
+          JavaScript and Tailwind CSS.
+        </p>
+
+        <button class="mt-6 bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-white duration-300 cursor-pointer">
+          Hire Me
+        </button>
+      </div>
+
+      <!-- Right Image -->
+    <!-- Right Image -->
+<div class="overflow-hidden rounded-full">
+  <img
+    src="./img/Profile_pic.png"
+    alt="Profile Photo"
+    class="w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-white shadow-2xl transition-all duration-500 hover:scale-110 hover:rotate-3 cursor-pointer"
+  />
+</div>
+  </header>
+ <main>
+    <!-- About Section -->
+<section class="bg-white py-20 px-8 md:px-20" id="about">
+
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- About Image -->
+    <div class="overflow-hidden rounded-3xl shadow-2xl">
+      <img
+        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+        alt="About Image"
+        class="w-full h-full object-cover transition-all duration-500 hover:scale-110"
+      />
+    </div>
+
+    <!-- About Content -->
+    <div>
+
+      <h2 class="text-4xl font-bold text-gray-800 mb-6">
+        About Me
+      </h2>
+
+      <p class="text-gray-600 text-lg leading-8 mb-6">
+        I am passionate about web development and building modern,
+        responsive and user-friendly websites. I have strong knowledge
+        of the MERN Stack including MongoDB, Express.js, React.js and Node.js.
+      </p>
+
+      <p class="text-gray-600 text-lg leading-8 mb-6">
+        I enjoy implementing creative website ideas and transforming
+        designs into real-world applications. I love solving problems,
+        learning new technologies and improving my development skills every day.
+      </p>
+
+      <p class="text-gray-600 text-lg leading-8">
+        My goal is to create fast, scalable and visually appealing
+        web applications that provide a great user experience.
+      </p>
+
+      <!-- Skills -->
+      <div class="flex flex-wrap gap-4 mt-8">
+
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-semibold">
+          MongoDB
+        </span>
+
+        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full font-semibold">
+          Express.js
+        </span>
+
+        <span class="bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full font-semibold">
+          React.js
+        </span>
+
+        <span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full font-semibold">
+          Node.js
+        </span>
+
+        <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">
+          Tailwind CSS
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+ <!-- Skills Section -->
+<section class="bg-gray-100 py-20 px-8 md:px-20" id="skills">
+
+  <div class="max-w-5xl mx-auto">
+
+    <!-- Section Title -->
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-14">
+      My Skills
+    </h2>
+
+    <!-- Skills Container -->
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- Skill Card -->
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+        <h3 class="text-2xl font-semibold text-blue-700 mb-4">
+          Frontend Development
+        </h3>
+
+        <p class="text-gray-600 leading-7">
+          Strong understanding of HTML, CSS, JavaScript and Tailwind CSS
+          for creating modern, responsive and user-friendly interfaces.
+          Experienced in building dynamic web applications using React.js.
+        </p>
+      </div>
+
+      <!-- Skill Card -->
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+        <h3 class="text-2xl font-semibold text-green-700 mb-4">
+          Backend Development
+        </h3>
+
+        <p class="text-gray-600 leading-7">
+          Skilled in Node.js and Express.js for developing scalable
+          backend applications and RESTful APIs with proper server-side logic.
+        </p>
+      </div>
+
+      <!-- Skill Card -->
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+        <h3 class="text-2xl font-semibold text-purple-700 mb-4">
+          Database Management
+        </h3>
+
+        <p class="text-gray-600 leading-7">
+          Good knowledge of MongoDB including database design,
+          CRUD operations and data management for full-stack applications.
+        </p>
+      </div>
+
+      <!-- Skill Card -->
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+        <h3 class="text-2xl font-semibold text-yellow-600 mb-4">
+          Problem Solving & Implementation
+        </h3>
+
+        <p class="text-gray-600 leading-7">
+          Passionate about implementing creative website ideas,
+          solving development problems and continuously learning
+          modern technologies to improve performance and user experience.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- progress bar section -->
+ <section class="progress  lg:p-4 my-5 container h-[800px] mx-auto">
+    <h1 class="font-bold text-center my-3 lg:text-center text-3xl">Skills</h1>
+    <div class="container  h-full flex flex-col lg:flex-row lg:gap-3 mx-auto shadow-lg bg-white p-8 rounded-2xl">
+      <div class="w-full overflow-hidden  md:w-full lg:w-1/2 h-full shadow-lg">
+        <img class="w-full man_my_image p-4 md:p-0 h-full object-cover rounded-2xl " src="./img/Profile_pic.png" alt="">
+      </div>
+    <!-- progress bar -->
+      <div class="w-full md:w-full lg:w-1/2">
+
+        <h1 class="font-bold text-2xl">Tailwind CSS</h1>
+        <div class="w-full flex gap-2">
+            
+            <div class="progress-fill w-full h-[10px] lg:h-[20px] rounded-full bg-white shadow-lg">
+                <div class="w-[70%] h-full bg-purple-500 rounded-full"></div>
+            </div>
+            <span class="text-blue-500 font-bold">70%</span>
+        </div>
+        <!-- React -->
+          <h1 class="font-bold text-2xl">React</h1>
+        <div class="w-full flex gap-2">
+            
+            <div class="progress-fill w-full h-[10px] lg:h-[20px] rounded-full bg-white shadow-lg">
+                <div class="w-[80%] h-full bg-purple-500 rounded-full"></div>
+            </div>
+            <span class="text-blue-500 font-bold">80%</span>
+        </div>
+        <!-- Mongo db -->
+          <h1 class="font-bold text-2xl">Express js</h1>
+        <div class="w-full flex gap-2">
+            
+            <div class="progress-fill w-full h-[10px] lg:h-[20px] rounded-full bg-white shadow-lg">
+                <div class="w-[60%] h-full bg-purple-500 rounded-full"></div>
+            </div>
+            <span class="text-blue-500 font-bold">60%</span>
+        </div>
+         <h1 class="font-bold text-2xl">MongoDB</h1>
+        <div class="w-full flex gap-2">
+            
+            <div class="progress-fill w-full h-[10px] lg:h-[20px] rounded-full bg-white shadow-lg">
+                <div class="w-[70%] h-full bg-purple-500 rounded-full"></div>
+            </div>
+            <span class="text-blue-500 font-bold">70%</span>
+        </div>
+
+        
+         
+         
+      </div>
+    </div>
+
+ </section>
+ <!-- project  -->
+  <!-- Projects Section -->
+<section class="bg-white mt-[180px] py-20 px-8 md:px-20" id="projects">
+
+   <div class="container mx-auto">
+      <!-- Projects Section -->
+<section class="bg-white py-20 px-8 md:px-20" id="projects">
+
+  <div class="max-w-6xl mx-auto">
+
+    <!-- Title -->
+    <h2 class=" text-xl lg:text-4xl font-bold text-center text-gray-800 mb-14">
+      My Projects
+    </h2>
+
+    <!-- Projects Grid -->
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Project Card -->
+      <div class="bg-gray-100 rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:shadow-2xl transition duration-300">
+        <img
+          src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+          class="w-full h-48 object-cover hover:scale-110 transition duration-500"
+          alt="Project 1"
+        />
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-800">E-commerce Website</h3>
+          <p class="text-gray-600 mt-2">
+            Full-stack MERN e-commerce platform with authentication and payment integration.
+          </p>
+          <a href="#" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">
+            View Project
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-gray-100 rounded-2xl overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl transition duration-300">
+        <img
+          src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+          class="w-full h-48 object-cover hover:scale-110 transition duration-500"
+          alt="Project 2"
+        />
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-800">Task Manager App</h3>
+          <p class="text-gray-600 mt-2">
+            A productivity app built with MERN stack for managing daily tasks efficiently.
+          </p>
+          <a href="#" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">
+            View Project
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-gray-100 rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:shadow-2xl transition duration-300">
+        <img
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+          class="w-full h-48 object-cover hover:scale-110 transition duration-500"
+          alt="Project 3"
+        />
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-800">Portfolio Website</h3>
+          <p class="text-gray-600 mt-2">
+            A responsive personal portfolio website built using Tailwind CSS and React concepts.
+          </p>
+          <a href="#" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">
+            View Project
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+   </div>
+
+</section>
+<section class="w-full  flex items-center justify-center bg-gray-100 p-4">
+
+  <form onsubmit="handleSubmit(event)" class="w-full login_form fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-w-md bg-white shadow-lg rounded-2xl p-8 space-y-5">
+
+    <!-- Title -->
+    <h2 class="text-3xl font-bold text-center text-gray-800">
+      Login
+    </h2>
+
+    <!-- Username -->
+    <div>
+      <label class="block text-gray-600 font-medium mb-1">Username</label>
+      <input
+        type="text"
+        placeholder="Enter username"
+        class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+        
+      />
+      <p class="user_Error"></p>
+    </div>
+
+    <!-- Email -->
+    <div>
+      <label class="block text-gray-600 font-medium mb-1">Email</label>
+      <input
+        id="email"
+        type="email"
+        placeholder="Enter email"
+        class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+      />
+      <p class="email_error text-red-500 font-bold"></p>
+    </div>
+
+    <!-- Password -->
+    <div>
+      <label class="block text-gray-600 font-medium mb-1">Password</label>
+      <input
+       id="password"
+        type="password"
+        placeholder="Enter password"
+        class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+      />
+      <p class="password_Error text-red-500 font-bold"></p>
+    </div>
+
+    <!-- Button -->
+    <button
+      type="submit"
+      class="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition"
+    >
+      Login
+    </button>
+
+  </form>
+
+</section>
+ </main>
+ <!-- Footer Section -->
+<footer class="bg-gradient-to-r from-blue-900 to-blue-600 text-white py-12 px-8 md:px-20">
+
+  <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+
+    <!-- About / Name -->
+    <div>
+      <h2 class="text-2xl font-bold mb-4">MyPortfolio</h2>
+      <p class="text-gray-200 leading-7">
+        A passionate MERN Stack Developer focused on building modern,
+        responsive and high-performance web applications.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+      <ul class="space-y-2 text-gray-200">
+        <li><a href="#home" class="hover:text-yellow-300 transition">Home</a></li>
+        <li><a href="#about" class="hover:text-yellow-300 transition">About</a></li>
+        <li><a href="#skills" class="hover:text-yellow-300 transition">Skills</a></li>
+        <li><a href="#projects" class="hover:text-yellow-300 transition">Projects</a></li>
+        <li><a href="#contact" class="hover:text-yellow-300 transition">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div>
+      <h3 class="text-xl font-semibold mb-4">Contact</h3>
+      <p class="text-gray-200">Email: mahmudmashrur0@gmail.com</p>
+      <p class="text-gray-200 mt-2">Phone: +880 1860296038</p>
+
+      <!-- Social Icons -->
+      <div class="flex gap-4 mt-6">
+        <a href="#" class="bg-white text-blue-700 p-2 rounded-full hover:bg-yellow-300 hover:text-black transition">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="bg-white text-blue-700 p-2 rounded-full hover:bg-yellow-300 hover:text-black transition">
+          <i class="fa-solid fa-at"></i>
+        </a>
+        <a href="#" class="bg-white text-blue-700 p-2 rounded-full hover:bg-yellow-300 hover:text-black transition">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <!-- overlay -->
+   <section class="overlay  fixed top-0 left-0">
+        
+
+   </section>
+
+  <!-- Bottom -->
+  <div class="text-center text-gray-200 mt-10 border-t border-blue-400 pt-6">
+    © 2026 MyPortfolio. All Rights Reserved.
+  </div>
+
+</footer>
+
+<script src="https://kit.fontawesome.com/3f9f674f2d.js" crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+</body>
+</html>
